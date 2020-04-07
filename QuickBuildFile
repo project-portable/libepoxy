@@ -11,6 +11,8 @@ dependencies:
     - xutils-dev
     - libx11-dev
     - libegl1-mesa-dev
+    - libgles2-mesa
+    - libsdl2-dev
 
   download:
     - https://raw.githubusercontent.com/probonopd/uploadtool/master/upload.sh
