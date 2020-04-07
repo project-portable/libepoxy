@@ -19,5 +19,4 @@ dependencies:
     
 steps:
   after:
-    - ls
     - bash upload.sh libepoxy.tar.gz
