@@ -8,6 +8,10 @@ build:
 dependencies:
   apt:
     - libegl1-mesa-dev
+    - xutils-dev
+    - libx11-dev
+    - libegl1-mesa-dev
+
   download:
     - https://raw.githubusercontent.com/probonopd/uploadtool/master/upload.sh
     
