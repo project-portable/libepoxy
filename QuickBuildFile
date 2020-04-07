@@ -1,0 +1,16 @@
+name: libepoxy
+slug: project-portable/libepoxy
+
+build:
+  configure: meson
+  make: ninja
+
+dependencies:
+  apt:
+    - libegl1-mesa-dev
+  download:
+    - https://raw.githubusercontent.com/probonopd/uploadtool/master/upload.sh
+    
+steps:
+  after:
+    - bash upload.sh libepoxy.tar.gz
